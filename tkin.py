@@ -1,0 +1,10 @@
+from tkinter import *
+windo=Tk()
+windo.title('Ho')
+windo.geometry("800x600")
+b=Button(windo,text="Hello",fg='green')
+b.place(x=100,y=100)
+l=Label(windo,text='Hello and Welcome',fg="light blue",font=('arial',35))
+l.place(x=150,y=100)
+e=Entry()
+windo.mainloop()
